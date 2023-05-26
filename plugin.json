@@ -1,0 +1,12 @@
+{
+    "ID": "7d2d209d-5ab9-42dd-ae9b-2487b57ff569",
+    "ActionKeyword": "vo",
+    "Name": "VolumeFlow",
+    "Description": "Plugin for control your Sound Volume",
+    "Author": "Ahmed ElSaeed",
+    "Version": "1.0.0",
+    "Language": "python",
+    "Website": "https://github.com/asmpro7/VolumeFlow",
+    "IcoPath": "Images\\app.png",
+    "ExecuteFileName": "main.py"
+}

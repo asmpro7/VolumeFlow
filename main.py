@@ -25,6 +25,10 @@ class VolumeFlow(FlowLauncher):
             subprocess.run(f"nircmd.exe mutesysvolume 1")
         elif query == "unmute":
             subprocess.run(f"nircmd.exe mutesysvolume 0")
+        elif query.isdigit():
+            value=65535*int(query)/100
+            subprocess.run(f"nircmd.exe changesysvolume -65535")
+            subprocess.run(f"nircmd.exe changesysvolume {value}")
         else:
             results.append({
                     "Title": "Volume up",

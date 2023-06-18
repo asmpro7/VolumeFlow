@@ -4,7 +4,7 @@
     "Name": "VolumeFlow",
     "Description": "Plugin for control your Sound Volume",
     "Author": "Ahmed ElSaeed",
-    "Version": "1.0.0",
+    "Version": "1.1.0",
     "Language": "python",
     "Website": "https://github.com/asmpro7/VolumeFlow",
     "IcoPath": "Images\\app.png",
